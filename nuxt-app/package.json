@@ -1,0 +1,28 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "ionic:build": "npm run build",
+    "ionic:serve": "npm run dev"
+  },
+  "devDependencies": {
+    "@nuxtjs/eslint-module": "^4.0.2",
+    "@nuxtjs/tailwindcss": "^6.6.5",
+    "eslint": "^8.37.0",
+    "nuxt": "^3.3.2"
+  },
+  "dependencies": {
+    "@capacitor/app": "4.1.1",
+    "@capacitor/cli": "4.7.3",
+    "@capacitor/core": "4.7.3",
+    "@capacitor/haptics": "4.1.0",
+    "@capacitor/keyboard": "4.1.1",
+    "@capacitor/status-bar": "4.1.1"
+  },
+  "version": "0.0.0"
+}
